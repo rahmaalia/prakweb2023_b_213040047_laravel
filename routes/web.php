@@ -14,5 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/about', function () {
+    return view('about', [
+        "name" => "Rahma aliaputri Efendi",
+        "email" => "rahmaaliaputri27@gmail.com",
+        "image" => "rahma.png"
+    ]);
+});
+
+Route::get('/blog', function () {
+    return view('posts');
 });
