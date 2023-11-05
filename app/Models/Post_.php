@@ -4,7 +4,7 @@ namespace App\Models;
 
 
 
-class Post_ 
+class Post_  
 {
     private static $blog_posts = [
         [
