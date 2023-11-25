@@ -36,8 +36,7 @@
                             <form action="/dashboard/posts/{{ $post->slug }}" method="post" class="d-inline">
                                 @method('delete')
                                 @csrf
-                                <button class="btn btn-danger btn-sm border-0" onclick="return confirm('Are you sure?')"><i
-                                        class="bi bi-x-circle" class="align-text-bottom"></i></button>
+                                <button class="btn btn-danger btn-sm border-0" onclick="return confirm('Are you sure?')"><i class="bi bi-x-circle" class="align-text-bottom"></i></button>
                             </form>
                         </td>
                     </tr>
